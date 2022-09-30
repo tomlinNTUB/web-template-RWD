@@ -1,0 +1,59 @@
+/*=========*/
+/* 網頁    */
+/*=========*/
+html, body{
+    background-color: #000;
+    margin-top:10px;
+}
+
+/*=========*/
+/* 導覽列  */
+/*=========*/
+.bg-light{
+    background-color: #c2d48c !important;
+}
+
+.dropdown-item:focus, .dropdown-item:hover {
+    color: #ffffff;
+    text-decoration: none;
+    background-color: #798139;
+  }
+  
+  .dropdown-item.active, .dropdown-item:active {
+    color: #fff;
+    text-decoration: none;
+    background-color: #5c721c;
+  }
+  
+  .dropdown-item.disabled, .dropdown-item:disabled {
+    color: #636c72;
+    cursor: not-allowed;
+    background-color: transparent;
+  }
+
+/*==========*/
+/* 內容區塊 */
+/*==========*/
+.container{
+    background-color: #e7f4c3;
+    padding:0;
+}
+
+.myContent{
+    padding:20px 10px;
+}
+
+/*==========*/
+/* 卡片     */
+/*==========*/
+.card{
+    box-shadow:0 0 5px 0 #aaa;
+}
+
+.myCardText{
+    padding:10px;
+}
+
+.card:hover{
+    opacity:0.8;
+}
